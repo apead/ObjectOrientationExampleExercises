@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientationExercises", "ObjectOrientationExercises\ObjectOrientationExercises.csproj", "{1A4AF1B4-DB15-42BF-898F-4575AAF06499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsAbstractionExercise", "GraphicsAbstractionExerciseSln\GraphicsAbstractionExercise\GraphicsAbstractionExercise.csproj", "{1BF6D6CC-F9D4-4669-912E-93844EC13FF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A4AF1B4-DB15-42BF-898F-4575AAF06499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4AF1B4-DB15-42BF-898F-4575AAF06499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4AF1B4-DB15-42BF-898F-4575AAF06499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4AF1B4-DB15-42BF-898F-4575AAF06499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF6D6CC-F9D4-4669-912E-93844EC13FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF6D6CC-F9D4-4669-912E-93844EC13FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF6D6CC-F9D4-4669-912E-93844EC13FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF6D6CC-F9D4-4669-912E-93844EC13FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82712E33-0CE6-4394-BBD2-A9E6FFAFAEB6}
+	EndGlobalSection
+EndGlobal
