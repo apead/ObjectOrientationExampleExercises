@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObjectOrientationExercises
+namespace ObjectOrientationExercises.Abstraction
 {
     internal class Square : Shape
     {
@@ -13,7 +13,7 @@ namespace ObjectOrientationExercises
         private double area;
         public override double GetArea()
         {
-            return this.side * this.side;
+            return side * side;
         }
 
         public override string GetShapeName()

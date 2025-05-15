@@ -1,4 +1,6 @@
-﻿using ObjectOrientationExercises.Inheritance;
+﻿using ObjectOrientationExercises.Abstraction;
+using ObjectOrientationExercises.Inheritance;
+using System.Net.Http.Headers;
 
 namespace ObjectOrientationExercises
 {
@@ -6,7 +8,47 @@ namespace ObjectOrientationExercises
     {
         static void Main(string[] args)
         {
-            List<Shape> shapes = new List<Shape>();
+         /*   Boat boat = new Boat("FancyBoat", "zx", 2000, 60, true, 10);
+
+            boat.CurrentSpeed = 400;
+
+           
+            int exampleSpeed = boat.CurrentSpeed;
+
+            MilitaryPlane sr71 = new MilitaryPlane("Lokheed", "sr71", 1980, 3000, 2, true, 0, 4);
+
+
+
+            sr71.CurrentSpeed = 5000;
+
+            */
+
+            Animal dog = new Dog();
+            //dog.MakeNoise();
+
+            Animal cat = new WildCat();
+           // cat.MakeNoise();
+
+            Animal bird = new Eagle();
+           // bird.MakeNoise();
+
+         
+
+            List<Animal> zoo = new List<Animal>();
+            zoo.Add(bird);
+            zoo.Add(cat);
+            zoo.Add(dog);
+
+;           // bob.MakeNoise();
+
+            foreach(Animal animal in zoo)
+            {
+               
+                
+                animal.MakeNoise();
+            }
+
+           /* List<Shape> shapes = new List<Shape>();
             shapes.Add(new Square(15));
             shapes.Add(new Circle(25));
             shapes.Add(new Rectangle(20,25));
@@ -14,12 +56,12 @@ namespace ObjectOrientationExercises
 
             foreach(Shape shape in shapes)
             {
-                double area = shape.GetArea();
+               double area = shape.GetArea();
 
-                Console.WriteLine($" {shape.GetShapeName()} area is {area}");
+               Console.WriteLine($" {shape.GetShapeName()} area is {area}");
 
             }
-
+           */
 
 
 

@@ -33,10 +33,8 @@ namespace ObjectOrientationExercises.Inheritance
         {
             set
             {
-                if (value > TopSpeed)
-                    currentSpeed = TopSpeed;
-                else
-                    currentSpeed = value;
+                SetCurrentSpeed(value);
+              
 
             }
 
@@ -62,6 +60,11 @@ namespace ObjectOrientationExercises.Inheritance
         public int NumDrivers { get; set; }
 
         private int currentSpeed = 0;
+
+        protected void MyProtectedMethod()
+        {
+
+        }
 
 
         public Vehicle(string make, string model, int year, int topSpeed)

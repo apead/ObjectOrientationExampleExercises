@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientationExercises
 {
-    internal abstract class Shape
+    public class Animal
     {
-        public abstract double GetArea();
-        public abstract string GetShapeName();
-        
-       
+        public virtual void MakeNoise()
+        {
+            Console.WriteLine("Default Animal Sound");
+        }
     }
 }

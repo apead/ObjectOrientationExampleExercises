@@ -28,7 +28,7 @@ namespace GraphicsAbstractionExercise
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);
-            foreach (var shape in shapes)
+            foreach (Shape shape in shapes)
             {
                 shape.Draw(e.Graphics);
             }
